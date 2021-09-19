@@ -8,3 +8,5 @@ Each time a firework spawn it checks how many effects are on it. If there is too
 You can parameter the max number of effects on a single rocket you want, and what command to execute on the player who lauch it.
 
 When writting your custom command use %PLAYER% to get the name of the player who launch the rocket. And write none if you don't want any command to execute.
+
+You can give the permission "firework.limitation.bypass" to a player for not being affected by the plugin restrictions
