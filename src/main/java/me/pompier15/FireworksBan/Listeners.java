@@ -45,10 +45,10 @@ public class Listeners implements Listener
 
                     if(player.hasPermission("firework.limitation.bypass"))
                     {
-                        System.out.println("[FireworksBan] [INFO] Player "+player.getDisplayName()+" tried to lunch a malicious firework but has the permission to do it");
+                        System.out.println("[FireworksBan] [INFO] Player "+player.getDisplayName()+" tried to launch a malicious firework but has the permission to do it");
                         return;
                     }
-                    System.out.println("[FireworksBan] [WARN] Player "+player.getDisplayName()+" tried to lunch a malicious firework");
+                    System.out.println("[FireworksBan] [WARN] Player "+player.getDisplayName()+" tried to launch a malicious firework");
 
                     String command = _plugin.getCommandToExecuteFromConfig();
 
@@ -65,7 +65,7 @@ public class Listeners implements Listener
                         }
                     }
                 }
-                System.out.println("[FireworksBan] [WARN] Malicious firework lunch prevented");
+                System.out.println("[FireworksBan] [WARN] Malicious firework launch prevented");
 
                 event.setCancelled(true);
             }
